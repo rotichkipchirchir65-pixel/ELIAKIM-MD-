@@ -1,0 +1,17 @@
+{
+  "name": "eliakim-md-bot",
+  "version": "3.0.0",
+  "description": "ELIAKIM MD WhatsApp Bot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0",
+    "@distube/ytdl-core": "^4.16.4",
+    "dotenv": "^16.4.7"
+  }
+}
